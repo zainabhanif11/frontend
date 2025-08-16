@@ -1,0 +1,128 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.auth-form {
+  background-color: #111; 
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #fff; 
+}
+
+/* Form inputs */
+.auth-form input,
+.auth-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-size: 14px;
+}
+
+.auth-form select option {
+  background-color: #000;
+  color: #fff;
+}
+.auth-form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.toggle-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.toggle-link button {
+  background: none;
+  border: none;
+  color: #1e90ff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.modal-close-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-close-btn:hover {
+  background-color: #0056b3;
+}
+.auth-form {
+  background-color: #111;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 1000px; 
+  color: #fff;
+}
+
+.modal-content {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 600px; 
+  width: 90%;
+  text-align: center;
+}

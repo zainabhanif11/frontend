@@ -1,0 +1,164 @@
+.cv-container {
+  max-width: 400px;  
+  margin: 40px auto;
+  padding: 20px 30px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  text-align: left;  
+  color: #eee;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.cv-profile-pic {
+  width: 80px;   
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #666;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.cv-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #66aaff;
+}
+.cv-info-box {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 12px 0;
+  text-align: left;
+  box-shadow: inset 0 0 5px rgba(255,255,255,0.1);
+}
+
+.cv-info-box strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #66aaff;
+}
+
+.skills-box p {
+  white-space: pre-wrap;
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+  max-height: 130px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+.cv-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  text-align: left;
+  color: #eee;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.cv-profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #666;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.cv-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #66aaff;
+ 
+}
+.cv-info-box {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 12px 0;
+  text-align: left;
+  box-shadow: inset 0 0 5px rgba(255,255,255,0.1);
+}
+
+.cv-info-box strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #66aaff;
+}
+.cv-info-box a {
+  color: #eee; 
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.cv-info-box a:hover {
+  text-decoration: underline;
+}
+
+.skills-box p {
+  white-space: pre-wrap;
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+  max-height: 130px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.cv-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border: 2px solid #444;
+  border-radius: 12px;
+  background-color: #222;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;  
+}
+
+.cv-header {
+  display: flex;        
+  align-items: center;  
+  gap: 20px;            
+  margin-bottom: 25px;
+}
+
+.cv-profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #666;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.cv-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #66aaff;
+}
+
