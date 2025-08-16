@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './CVPage.css';
+import './CVpage.css';
 
 const CVPage = ({ formData }) => {
   const navigate = useNavigate();

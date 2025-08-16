@@ -15,6 +15,9 @@ function AuthForm() {
 
   const navigate = useNavigate();
 
+  // Railway backend URL yahan daal dein
+  const BACKEND_URL = 'https://backened-production-1f09.up.railway.app';
+
   function Modal({ show, onClose, title, children }) {
     if (!show) return null;
 
@@ -36,7 +39,10 @@ function AuthForm() {
     const payload =
       mode === 'signup' ? { name, email, password } : { email, password };
 
-    const url = mode === 'signup' ? 'http://localhost:8080/signup' : 'http://localhost:8080/login';
+    // URLs ab dynamic hain
+    const url = mode === 'signup' 
+      ? `${BACKEND_URL}/signup` 
+      : `${BACKEND_URL}/login`;
 
     try {
       const res = await axios.post(url, payload);
@@ -73,7 +79,6 @@ function AuthForm() {
               onChange={(e) => setName(e.target.value)}
               required
             />
-            {/* Removed role select dropdown */}
           </>
         )}
 
